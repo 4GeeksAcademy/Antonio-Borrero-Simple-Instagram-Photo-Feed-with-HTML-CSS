@@ -3,10 +3,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #head {
+    font-size: small;
     display: flex;
     justify-content: center;
     background-color: white;
     margin-bottom: 50px;
+    padding-right: 110px;
 }
 .post {
     margin: auto;
@@ -41,7 +43,6 @@ img {
     height: 80%;
     object-fit: cover;
     background-color: black;
-    
 }
 .post-feet {
     background-color: white;
