@@ -1,14 +1,49 @@
-/* 
-
-    You can write your own styles here...
+body {
+    background-color: rgb(192, 192, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#head {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.post {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 375px;
+    margin-bottom: 70px;
+}
+.post-head {
+    background-color: white;
+    height: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.post-head h2 {
+    float: left;
+    font-size: 20px;
+}
+.post-head p {
+    float: right;
+    color: gray;
+    font-size: 18px;
+}
+.My-first-photo {
+    object-fit: contain;
+}
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-color: black;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-.container{
-    
+}
+.post-feet {
+    background-color: white;
+    padding-left: 10px;
 }
